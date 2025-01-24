@@ -874,6 +874,14 @@ video {
   bottom: 1rem;
 }
 
+.right-\[20px\] {
+  right: 20px;
+}
+
+.top-\[20px\] {
+  top: 20px;
+}
+
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -1015,6 +1023,34 @@ video {
   margin-top: 20px;
 }
 
+.mb-\[5px\] {
+  margin-bottom: 5px;
+}
+
+.mb-\[70px\] {
+  margin-bottom: 70px;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.block {
+  display: block;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -1061,6 +1097,10 @@ video {
 
 .h-\[90px\] {
   height: 90px;
+}
+
+.h-\[50px\] {
+  height: 50px;
 }
 
 .max-h-0 {
@@ -1125,6 +1165,22 @@ video {
   width: 90%;
 }
 
+.w-\[95\%\] {
+  width: 95%;
+}
+
+.w-\[97\%\] {
+  width: 97%;
+}
+
+.w-\[98\%\] {
+  width: 98%;
+}
+
+.w-\[99\%\] {
+  width: 99%;
+}
+
 .max-w-md {
   max-width: 28rem;
 }
@@ -1163,6 +1219,10 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
 
 .space-y-2 > :not([hidden]) ~ :not([hidden]) {
@@ -1270,6 +1330,11 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#eeeeee\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(238 238 238 / var(--tw-bg-opacity, 1));
 }
 
 .bg-cover {
@@ -1415,8 +1480,33 @@ video {
   padding-bottom: 1.5rem;
 }
 
+.px-\[30px\] {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 .pb-12 {
   padding-bottom: 3rem;
+}
+
+.pb-\[6px\] {
+  padding-bottom: 6px;
+}
+
+.pl-\[15px\] {
+  padding-left: 15px;
+}
+
+.pr-\[15px\] {
+  padding-right: 15px;
+}
+
+.pt-\[8px\] {
+  padding-top: 8px;
+}
+
+.pb-2 {
+  padding-bottom: 0.5rem;
 }
 
 .text-left {
@@ -1506,6 +1596,10 @@ video {
   line-height: 40px;
 }
 
+.leading-\[50px\] {
+  line-height: 50px;
+}
+
 .tracking-wide {
   letter-spacing: 0.025em;
 }
@@ -1522,6 +1616,15 @@ video {
 .text-\[\#ee626b\] {
   --tw-text-opacity: 1;
   color: rgb(238 98 107 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#7a7a7a\] {
+  --tw-text-opacity: 1;
+  color: rgb(122 122 122 / var(--tw-text-opacity, 1));
+}
+
+.line-through {
+  text-decoration-line: line-through;
 }
 
 .shadow-lg {
@@ -1598,6 +1701,21 @@ video {
 .hover\:bg-\[\#ee626b\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(238 98 107 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:bg-\[\#0071f8\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 113 248 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:bg-\[\#7a7a7a\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(122 122 122 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:text-\[\#0071f8\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(0 113 248 / var(--tw-text-opacity, 1));
 }
 
 .focus\:outline-none:focus {
@@ -1876,6 +1994,18 @@ video {
     justify-content: flex-end;
   }
 
+  .md\:gap-4 {
+    gap: 1rem;
+  }
+
+  .md\:gap-6 {
+    gap: 1.5rem;
+  }
+
+  .md\:gap-8 {
+    gap: 2rem;
+  }
+
   .md\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
@@ -1919,6 +2049,31 @@ video {
   .md\:py-2 {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+  }
+
+  .md\:px-0\.5 {
+    padding-left: 0.125rem;
+    padding-right: 0.125rem;
+  }
+
+  .md\:py-0\.5 {
+    padding-top: 0.125rem;
+    padding-bottom: 0.125rem;
+  }
+
+  .md\:px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .md\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .md\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 
   .md\:text-white {
@@ -2027,6 +2182,10 @@ video {
 
   .lg\:ml-0 {
     margin-left: 0px;
+  }
+
+  .lg\:block {
+    display: block;
   }
 
   .lg\:flex {
@@ -2156,6 +2315,26 @@ video {
   .lg\:px-5 {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
+  }
+
+  .lg\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .lg\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .lg\:px-0\.5 {
+    padding-left: 0.125rem;
+    padding-right: 0.125rem;
+  }
+
+  .lg\:py-0\.5 {
+    padding-top: 0.125rem;
+    padding-bottom: 0.125rem;
   }
 
   .lg\:text-left {
