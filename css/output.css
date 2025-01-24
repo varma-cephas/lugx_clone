@@ -562,6 +562,10 @@ video {
   position: relative;
 }
 
+.sticky {
+  position: sticky;
+}
+
 .inset-y-2\.5 {
   top: 0.625rem;
   bottom: 0.625rem;
@@ -1416,6 +1420,10 @@ video {
   background-color: rgb(247 247 247 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[0071f8\] {
+  background-color: 0071f8;
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -2215,6 +2223,16 @@ video {
     padding-right: 1.5rem;
   }
 
+  .md\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .md\:py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
   .md\:text-left {
     text-align: left;
   }
@@ -2339,12 +2357,39 @@ video {
     margin-right: 6rem;
   }
 
+  .lg\:my-6 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .lg\:my-8 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .lg\:my-10 {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+
   .lg\:mr-12 {
     margin-right: 3rem;
   }
 
   .lg\:ml-0 {
     margin-left: 0px;
+  }
+
+  .lg\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
+  .lg\:mt-16 {
+    margin-top: 4rem;
+  }
+
+  .lg\:mt-20 {
+    margin-top: 5rem;
   }
 
   .lg\:block {
@@ -2437,6 +2482,10 @@ video {
 
   .lg\:grid-cols-6 {
     grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
   .lg\:flex-row {
