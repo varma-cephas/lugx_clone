@@ -1145,6 +1145,10 @@ video {
   margin-top: 5rem;
 }
 
+.mt-\[150px\] {
+  margin-top: 150px;
+}
+
 .block {
   display: block;
 }
@@ -1207,6 +1211,10 @@ video {
 
 .max-h-0 {
   max-height: 0px;
+}
+
+.min-h-\[150px\] {
+  min-height: 150px;
 }
 
 .w-20 {
@@ -1438,6 +1446,11 @@ video {
   border-bottom-left-radius: 150px;
 }
 
+.rounded-t-\[150px\] {
+  border-top-left-radius: 150px;
+  border-top-right-radius: 150px;
+}
+
 .border {
   border-width: 1px;
 }
@@ -1516,6 +1529,10 @@ video {
 
 .bg-\[url\(\/assets\/cta-bg\.jpg\)\] {
   background-image: url(/assets/cta-bg.jpg);
+}
+
+.bg-\[url\(\/assets\/footer-bg\.jpg\)\] {
+  background-image: url(/assets/footer-bg.jpg);
 }
 
 .bg-cover {
@@ -1826,6 +1843,10 @@ video {
 
 .font-\[500\] {
   font-weight: 500;
+}
+
+.font-\[16px\] {
+  font-weight: 16px;
 }
 
 .uppercase {
