@@ -20,8 +20,8 @@
 
 </head>
 <body>
-    <div class="bg-cover bg-center rounded-b-[150px] bg-[url(/assets/banner-bg.jpg)]">
-        <header class="mx-auto flex flex-col px-4 py-4 md:flex-row md:items-center bg-[#0171f9] w-full fixed z-40 transition">
+    <div class="bg-cover bg-center rounded-b-[150px] bg-[url(/assets/banner-bg.jpg)] container h-full w-full">
+        <header class="mx-auto flex flex-col px-4 py-4 md:flex-row md:items-center w-full fixed z-40 transition" id="primary-header">
             <a href="#" class="xl:ml-12">
                 <img class="h-12 md:h-full" src="./assets/logo.png" alt="logo">
             </a>
@@ -62,7 +62,7 @@
                    </div>
                 </div>
                 <div class="">
-                    <div class="relative text-white">
+                    <div class="relative text-white" id="hero_image_discount">
                         <img class="w-full w-lg mx-auto rounded-3xl lg:w-[80%] xl:w-full" src="./assets/banner-image_the_assasin.jpg" alt="">
                         <span class="absolute top-6 right-12 bg-[#008af8] text-2xl font-bold py-1 px-3.5 rounded-3xl">$22</span>
                         <span class="absolute inline-block rounded-full left-14 bottom-14 md:left-0 md:-bottom-2 bg-[#ee626b] text-3xl font-bold w-[90px] h-[90px] text-center leading-[90px] align-middle">-40%</span>
